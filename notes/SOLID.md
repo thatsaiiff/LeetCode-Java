@@ -80,3 +80,51 @@ Next:
 🔜 [O — Open/Closed Principle → Coming soon].
 
 ---
+
+---
+
+## 🔓 Open/Closed Principle (OCP)
+
+**Definition:**  
+A class should be **open for extension**, but **closed for modification**.
+
+### 🔥 Why it matters:
+- Reduces risk of breaking existing code
+- Encourages clean abstractions
+- Makes codebase more maintainable and scalable
+
+### ❌ Anti-pattern:
+Using `if-else` or `switch` statements based on type
+
+```java
+// Bad Example
+class NotificationService {
+    public void send(String type) {
+        if (type.equals("EMAIL")) { /* send email */ }
+        else if (type.equals("SMS")) { /* send sms */ }
+    }
+}
+
+✅ Solution:
+
+Use interfaces or abstract classes to allow behavior extension.
+
+// Good Example using OCP
+interface Notifier { void send(); }
+
+class EmailNotifier implements Notifier {
+    public void send() { /* send email */ }
+}
+
+class NotificationService {
+    public void notifyUser(Notifier notifier) {
+        notifier.send();
+    }
+}
+
+📦 Real-world Analogy:
+
+A plug point is closed (you don’t change the wall),
+but open to new devices like fans, chargers, or TVs — extension without modification.
+
+
