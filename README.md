@@ -10,3 +10,27 @@
 | 135 | Candy                             | [Code](arrays/Candy.java)                | Greedy, Two Pass (Left-Right), O(n)  |
 | 42  | Trapping Rain Water             | [Code](arrays/TrappingRainWater.java)     | Two-Pointer, O(n) time, O(1) space |
 | 13  | Roman to Integer                | [Code](arrays/RomanToInteger.java)        | Greedy, O(n), Subtractive Logic    |
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+---
+
+## 🛠️ Projects
+
+| Project Name      | Description                              | Status     | Link         |
+|-------------------|------------------------------------------|------------|--------------|
+| Fire TV CLI Tool  | Lightweight CLI to interact with Fire TV via ADB: launch apps, capture logs, and navigate | Planned 🚧 | [Notes](notes/ProjectIdeas.md) |
