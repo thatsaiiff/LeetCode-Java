@@ -14,6 +14,8 @@
 | 151 | Reverse Words in a String       | [Code](arrays/ReverseWordsInString.java) | String Manipulation, O(n) |
 |  58 | Length of Last Word              | [Code](arrays/LengthOfLastWord.java) | String, O(n)              |
 |  14 | Longest Common Prefix           | [Code](arrays/LongestCommonPrefix.java)  | Horizontal Scanning, O(n * m) |
+| 6   | Zigzag Conversion                           | [Code](strings/ZigZagPattern.java)         | String Manipulation, Simulation      |
+| 28  | Find the Index of the First Occurrence      | [Code](strings/StrStr.java)                | Built-in `indexOf()`, O(n*m)         |
 
 
 
