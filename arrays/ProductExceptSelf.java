@@ -1,3 +1,6 @@
+import java.util.Arrays;
+import java.util.Scanner;
+
 /**
  * Problem: https://leetcode.com/problems/product-of-array-except-self/
  * Status: Solved ✅
@@ -9,7 +12,7 @@
  */
 
 public class ProductExceptSelf {
-    public int[] productExceptSelf(int[] nums) {
+    public static int[] productExceptSelf(int[] nums) {
         int n = nums.length;
         int[] answer = new int[n];
 
@@ -27,5 +30,16 @@ public class ProductExceptSelf {
         }
 
         return answer;
+    }
+
+    public static void main(String[] args) {
+        Scanner sc= new Scanner(System.in);
+
+        int sample[] = {2,7,4,1,2,3};
+
+
+        System.out.println("Product Except self are : "+ Arrays.toString(productExceptSelf(sample)));
+
+
     }
 }

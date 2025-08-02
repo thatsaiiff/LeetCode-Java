@@ -1,2 +1,7 @@
-package PACKAGE_NAME;public class IndexoftheFirstOccurrenceInAString {
+public class IndexoftheFirstOccurrenceInAString {
+    public int strStr(String haystack, String needle) {
+        return haystack.indexOf(needle);
+
+    }
+
 }

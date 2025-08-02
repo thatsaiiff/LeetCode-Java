@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 /**
  * Problem: https://leetcode.com/problems/best-time-to-buy-and-sell-stock/
  * Status: Solved ✅
@@ -6,7 +8,7 @@
  */
 
 public class BestTimeToBuySellStock {
-    public int maxProfit(int[] prices) {
+    public static int maxProfit(int[] prices) {
         int minPrice = Integer.MAX_VALUE;
         int maxProfit = 0;
 
@@ -19,5 +21,16 @@ public class BestTimeToBuySellStock {
         }
 
         return maxProfit;
+    }
+
+    public static void main(String[] args) {
+        Scanner sc= new Scanner(System.in);
+        String stock_name="ITC";
+        int sample[] = {172,178,198,110,29,10};
+        int maxP=maxProfit(sample);
+
+        System.out.println("Maximum Profit you can generate by Buying or selling the stock "+stock_name+" in the given time period : "+maxP);
+
+
     }
 }
