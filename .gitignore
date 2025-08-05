@@ -1,2 +1,4 @@
-# Ignore compiled output folder
+.DS_Store
+.idea/
+*.iml
 out/
