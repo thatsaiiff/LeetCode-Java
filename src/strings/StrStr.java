@@ -1,4 +1,4 @@
-
+package strings;
 
 public class StrStr {
     public int strStr(String haystack, String needle) {
