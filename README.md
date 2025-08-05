@@ -43,3 +43,16 @@
 | Project Name      | Description                              | Status     | Link         |
 |-------------------|------------------------------------------|------------|--------------|
 | Fire TV CLI Tool  | Lightweight CLI to interact with Fire TV via ADB: launch apps, capture logs, and navigate | Planned 🚧 | [Notes](notes/ProjectIdeas.md) |
+
+---
+
+## 🔥 FireTV CLI Tool (Project)
+
+A Java-based CLI project to support Fire TV troubleshooting and automation.  
+Functions include:
+- Listing installed apps
+- Uninstalling sideloaded apps
+- Clearing cache of all apps
+- Future plans: Wi-Fi troubleshooting & voice command integration
+
+📂 GitHub Repository: [FireTV-CLI-Tool](https://github.com/thatsaiiff/FireTV-CLI-Tool)
