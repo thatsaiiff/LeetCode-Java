@@ -36,7 +36,6 @@ public class SplitCheck {
             result += words[i];
             if (i < words.length - 1) result += " ";
         }
-x
         System.out.println("Updated Sentence: " + result);
     }
 }
