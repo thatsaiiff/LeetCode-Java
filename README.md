@@ -17,6 +17,7 @@
 | 6   | Zigzag Conversion                           | [Code](src/strings/ZigZagPattern.java)         | String Manipulation, Simulation      |
 | 28  | Find the Index of the First Occurrence      | [Code](src/strings/StrStr.java)                | Built-in `indexOf()`, O(n*m)         |
 | 125 | Valid Palindrome                  | [Code](src/strings/ValidPalindrome.java) | Two Pointers, Clean-up then Compare  |
+| 392 | Is Subsequence                     | [Code](src/strings/IsSubsequence.java)  | Two Pointers, O(n) time, O(1) space  |
 
 
 
