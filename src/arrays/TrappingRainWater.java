@@ -1,3 +1,5 @@
+package arrays;
+
 public class TrappingRainWater {
     public int trap(int[] height){
 

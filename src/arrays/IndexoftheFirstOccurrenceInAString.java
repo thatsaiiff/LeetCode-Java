@@ -1,3 +1,5 @@
+package arrays;
+
 public class IndexoftheFirstOccurrenceInAString {
     public int strStr(String haystack, String needle) {
         return haystack.indexOf(needle);

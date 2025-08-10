@@ -1,3 +1,5 @@
+package arrays;
+
 public class ReverseWordsInString {
     public String reverseWords(String s) {
         // Trim leading/trailing spaces, split by one or more spaces
