@@ -2,7 +2,7 @@
 
 ### ✅ Problems Solved
 - Gas Station (Greedy)
-- Candy (Greedy - Two Pass)
+- arrays.Candy (Greedy - Two Pass)
 
 ### ✅ SOLID Principles
 - SRP: Single Responsibility

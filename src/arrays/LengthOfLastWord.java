@@ -1,3 +1,5 @@
+package arrays;
+
 public class LengthOfLastWord {
     public int lengthOfLastWord(String s) {
         int length = 0, i = s.length() - 1;

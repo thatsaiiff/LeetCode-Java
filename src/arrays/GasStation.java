@@ -1,3 +1,5 @@
+package arrays;
+
 public class GasStation {
     public int canCompleteCircuit(int[] gas, int[] cost) {
         int totalTank=0;

@@ -1,4 +1,4 @@
-/**
+package arrays; /**
  * Problem: https://leetcode.com/problems/candy/
  * Status: Solved ✅
  * Time: O(n), Space: O(n)
