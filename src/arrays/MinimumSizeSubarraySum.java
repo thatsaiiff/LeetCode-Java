@@ -1,6 +1,6 @@
 package arrays;
 
-public class MinSubArrayLen {
+public class MinimumSizeSubarraySum {
     /**
      * Finds the minimal length of a contiguous subarray of which the sum is at least target.
      * Uses a sliding window approach to achieve O(n) time complexity.
