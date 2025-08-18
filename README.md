@@ -2,7 +2,7 @@
 
 🚀 My daily LeetCode practice in Java.
 
-| #   | Title                             | Solution                                 | Approach                              |
+| #   | Title                             | arrays.ValidSoduko                                 | Approach                              |
 |-----|-----------------------------------|------------------------------------------|---------------------------------------|
 | 121 | Best Time to Buy and Sell Stock  | [Code](src/arrays/BestTimeToBuySellStock.java) | Greedy, O(n)                          |
 | 238 | Product of Array Except Self     | [Code](src/arrays/ProductExceptSelf.java)     | Prefix-Suffix, O(n), No division     |
@@ -19,7 +19,7 @@
 | 125 | Valid Palindrome                  | [Code](src/strings/ValidPalindrome.java) | Two Pointers, Clean-up then Compare  |
 | 392 | Is Subsequence                     | [Code](src/strings/IsSubsequence.java)  | Two Pointers, O(n) time, O(1) space  |
 | 209 | Minimum Size Subarray Sum          | [Code](src/arrays/MinimumSizeSubarraySum.java)  | Sliding Window, O(n)                 |
-
+| 36  | Valid Sudoku | [Code](src/arrays/ValidSudoku.java) | HashSet for rows, columns, boxes, O(1) |
 
 
 
