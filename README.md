@@ -20,6 +20,14 @@
 | 392 | Is Subsequence                     | [Code](src/strings/IsSubsequence.java)  | Two Pointers, O(n) time, O(1) space  |
 | 209 | Minimum Size Subarray Sum          | [Code](src/arrays/MinimumSizeSubarraySum.java)  | Sliding Window, O(n)                 |
 | 36  | Valid Sudoku | [Code](src/arrays/ValidSudoku.java) | HashSet for rows, columns, boxes, O(1) |
+| 48  | Rotate Image | [Code](src/arrays/RotateImage.java) | Transpose + Reverse rows, O(n^2) |
+| 54  | Spiral Matrix | [Code](src/arrays/SpiralMatrix.java) | Boundary traversal simulation, O(m*n) |
+| 73  | Set Matrix Zeroes | [Code](src/arrays/SetMatrixZeroes.java) | Constant space markers, O(m*n) |
+| 289 | Game of Life | [Code](src/arrays/GameOfLife.java) | In-place state encoding, O(m*n) |
+| 380 | Insert Delete GetRandom O(1) | [Code](src/arrays/RandomizedSet.java) | HashMap + ArrayList + Random, O(1) avg |
+| 68  | Text Justification | [Code](src/arrays/TextJustification.java) | Greedy packing & space distribution |
+| 3   | Longest Substring Without Repeating Characters | [Code](src/strings/LongestSubstringWithoutRepeatingCharacters.java) | Sliding Window + HashSet, O(n) |
+| 30  | Substring with Concatenation of All Words | [Code](src/strings/SubstringWithConcatenationOfAllWords.java) | Sliding Window + HashMap, O(n * wordLen) |
 
 
 
