@@ -50,6 +50,21 @@
 | 219 | Contains Duplicate II | [Code](src/HashMap_Programs/ContainsDuplicateII.java) | HashMap index tracking, O(n) |
 | 128 | Longest Consecutive Sequence | [Code](src/HashMap_Programs/LongestConsecutiveSequence.java) | HashSet boundary check, O(n) |
 
+## Intervals
+
+| #   | Title                             | Source                                 | Approach                              |
+|-----|-----------------------------------|----------------------------------------|---------------------------------------|
+| 56  | Merge Intervals                   | [Code](src/Intervals/MergeIntervals.java) | Sorting + Merge Overlap, O(n log n)  |
+| 57  | Insert Interval                  | [Code](src/Intervals/InsertIntervals.java) | Linear scan + merge overlaps, O(n)   |
+| 452 | Minimum Number of Arrows to Burst Balloons | [Code](src/Intervals/FindMinArrowShots.java) | Sorting by end coordinate + greedy, O(n log n) |
+| 228 | Summary Ranges                  | [Code](src/Intervals/SummaryRanges.java) | Linear traversal, O(n)                |
+
+## ICSE
+
+| Title           | Source                                 | Approach                              |
+|-----------------|----------------------------------------|---------------------------------------|
+| SwapOrBuzzMenu  | [Code](src/ICSE/SwapOrBuzzMenu.java)   | Basic menu-driven program (practice) |
+
 
 
 
