@@ -59,28 +59,6 @@
 | 452 | Minimum Number of Arrows to Burst Balloons | [Code](src/Intervals/FindMinArrowShots.java) | Sorting by end coordinate + greedy, O(n log n) |
 | 228 | Summary Ranges                  | [Code](src/Intervals/SummaryRanges.java) | Linear traversal, O(n)                |
 
-## ICSE
-
-| Title           | Source                                 | Approach                              |
-|-----------------|----------------------------------------|---------------------------------------|
-| SwapOrBuzzMenu  | [Code](src/ICSE/SwapOrBuzzMenu.java)   | Basic menu-driven program (practice) |
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 ---
 
 ## 🛠️ Projects
